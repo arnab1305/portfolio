@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.main-box {
+  padding: 0px 80px 0px 80px;
+}
+.nav-box {
+  height: 100%;
+  color: aliceblue;
+  padding: 28px 0px 24px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #af9661;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 15px 0px 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo:hover {
+  color: #af9661;
+  text-shadow: 0 0 5px #af9661, 0 0 25px #af9661, 0 0 50px #af9661,
+    0 0 200px #af9661;
+  //-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.name {
+  font-family: "Montserrat", sans-serif;
+  color: #af9660;
+}
+.nav-menu {
+  color: var(--Text, #fff);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 15px;
+  cursor: pointer;
+  .item {
+    padding: 0px 15px;
+  }
+  .contact {
+    background-image: linear-gradient(to right, #ffe074, #50cae4, #9b5cff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 400s linear infinite;
+    @keyframes rainbow-animation {
+      to {
+        background-position: 4500vh;
+      }
+    }
+  }
+}
+.item:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  //-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.contact:hover {
+  background: #111;
+  background-image: linear-gradient(to right, #ffe074, #50cae4, #9b5cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 400s linear infinite;
+  @keyframes rainbow-animation {
+    to {
+      background-position: 4500vh;
+    }
+  }
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  //-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}

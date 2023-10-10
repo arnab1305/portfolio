@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100,600&display=swap");
+
+.basic-style {
+  display: flex;
+  width: 200px;
+  height: 48px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.neo-primary {
+  background: #d5f60c;
+  border: 0px;
+  color: #111 !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.neo-primary:hover {
+  background: #d5f60c;
+  color: #050801;
+  box-shadow: 0 0 5px #d5f60c, 0 0 25px #d5f60c, 0 0 50px #d5f60c,
+    0 0 200px #d5f60c;
+  //-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.neo-secondary:hover {
+  color: #d5f60c;
+  box-shadow: 0 0 5px #d5f60c, 0 0 25px #d5f60c, 0 0 50px #d5f60c,
+    0 0 200px #d5f60c;
+ // -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.neo-dark:hover {
+  background: #ccc;
+  color: #050801;
+  box-shadow: 0 0 5px #ccc, 0 0 25px #ccc, 0 0 50px #ccc,
+    0 0 200px #ccc;
+  //-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.neo-secondary {
+  border: 1px solid var(--Secondary, #d5f60c);
+  background: #111;
+  color: var(--Secondary, #d5f60c);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  &.black {
+    background-color: #111;
+  }
+}
+.neo-dark {
+  background: #ccc;
+  border: 0px !important;
+  color: #777 !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
